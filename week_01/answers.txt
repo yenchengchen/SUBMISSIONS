@@ -1,0 +1,42 @@
+(base) yanchengdeMacBook-Pro:~ Yencheng$ git clone https://github.com/yenchengchen/SUBMISSIONS.git
+Cloning into 'SUBMISSIONS'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) yanchengdeMacBook-Pro:~ Yencheng$ cd SUBMISSIONS/
+(base) yanchengdeMacBook-Pro:SUBMISSIONS Yencheng$ mkdir week_01
+(base) yanchengdeMacBook-Pro:SUBMISSIONS Yencheng$ ls
+README.md	week_01
+(base) yanchengdeMacBook-Pro:SUBMISSIONS Yencheng$ cd week_01/
+(base) yanchengdeMacBook-Pro:week_01 Yencheng$ touch answers.txt
+(base) yanchengdeMacBook-Pro:week_01 Yencheng$ mkdir s1
+(base) yanchengdeMacBook-Pro:week_01 Yencheng$ ls
+answers.txt	s1
+(base) yanchengdeMacBook-Pro:week_01 Yencheng$ cd s1
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ mkdir s3
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ cd s3
+(base) yanchengdeMacBook-Pro:s3 Yencheng$ ls
+(base) yanchengdeMacBook-Pro:s3 Yencheng$ touch conf.txt
+(base) yanchengdeMacBook-Pro:s3 Yencheng$ cd ..
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ ls
+s3
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ mkdir s2
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ cd s2
+(base) yanchengdeMacBook-Pro:s2 Yencheng$ mkdir Advanced
+(base) yanchengdeMacBook-Pro:s2 Yencheng$ ls
+Advanced	chunk1.txt
+(base) yanchengdeMacBook-Pro:s2 Yencheng$ touch text_chunk1.txt
+(base) yanchengdeMacBook-Pro:s2 Yencheng$ cd Advanced/
+(base) yanchengdeMacBook-Pro:Advanced Yencheng$ touch text_chunk2.txt
+(base) yanchengdeMacBook-Pro:Advanced Yencheng$ echo "Virtual (conda) environments are my favorite new technology" >> ../../s3/conf.txt
+(base) yanchengdeMacBook-Pro:Advanced Yencheng$ cat ../../s3/conf.txt 
+Virtual (conda) environments are my favorite new technology
+(base) yanchengdeMacBook-Pro:Advanced Yencheng$ echo "Virtual environments are good for my mental health." > ../text_chunk1.txt 
+(base) yanchengdeMacBook-Pro:Advanced Yencheng$ cd ..
+(base) yanchengdeMacBook-Pro:s2 Yencheng$ cd ..
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ cat s2/text_chunk1.txt > s2/Advanced/text_chunk2.txt 
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ echo "I like them because it helps my brain do exercise everyday" >> s2/Advanced/text_chunk2.txt 
+(base) yanchengdeMacBook-Pro:s1 Yencheng$ cat s2/Advanced/text_chunk2.txt 
+Virtual environments are good for my mental health.
+I like them because it helps my brain do exercise everyday
