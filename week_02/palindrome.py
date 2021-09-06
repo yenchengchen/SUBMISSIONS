@@ -47,6 +47,7 @@ while i < len(newname):
 
 #print(namerev)
 if namefor == namerev:
+    print(newname)
     print("Palindrome!")
 
 
