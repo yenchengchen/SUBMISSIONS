@@ -21,6 +21,8 @@ while i <  len(name)-1:
     
 # palindrome check
 
+''''
+
 namefor = newname
 namefor = namefor + name[0].lower()
 
@@ -43,7 +45,8 @@ while i < len(name)-1:
     
     i += 1
 
-if newfor == namerev:
+
+if namefor == namerev:
     print("Palindrome!")
 
 
