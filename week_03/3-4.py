@@ -10,13 +10,19 @@ a = int(input("Please input a integer:" ))
 
 i = 1
 j = 1
+
+k = []
 while i <= a or j <= a:
     if j <= a:
-        print(j)
+        #print(j)
+        k.extend([j])
 
     if i <= a:
-        print (i)
+        #print (i)
+        k.extend([i])
     
     
     j = j + i
     i = j + i
+    
+print(k)
